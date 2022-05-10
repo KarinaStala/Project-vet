@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Arial', sans serif;
+    background-color: gainsboro;
+    max-width: 1920px;
+}
+
+nav {
+    margin: 5px auto;
+    background-color: lavender;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkslategrey;
+    padding: 10px 10px;
+    margin: 10px 13px;
+    border: 2px dotted black;
+    border-bottom: 5px solid seagreen;
+    border-top: 5px solid seagreen;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    transition: 0.3s;
+}
+
+nav a.reservation {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    background-color: #796e96;
+    color: white;
+    border-top: 5px solid #c0bfc5;
+    border-bottom: 5px solid #c0bfc5;
+    margin-left: 20px;
+
+}
+
+nav a.reservation:hover {
+    color: #796e96;
+    background-color: white;
+    border: 5px solid #796e96;
+    text-shadow: 1.5px 1.5px lavender;
+
+}
+
+nav a:hover {
+    color: white;
+    background-color: seagreen;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+}
+
+header {
+    height: 80vh;
+    background-image: url('vet.jpg');
+    background-repeat: no repeat;
+    background-size: cover;
+    margin-right: 220px;
+    margin-left: 160px;
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    line-height: 110vh;
+    margin-left: 100px;
+    text-shadow: 3px 3px #796e96;
+}
+
+main {
+    max-width: 1440px;
+    margin: 1vh auto;
+}
+
+main p.description {
+    font-size: 20px;
+    text-align: center;
+    line-height: 26px;
+}
+
+main div.feature {
+    display: inline-block;
+    width: 33%
+}
+
+main section div.image {
+    height: 200px;
+    margin: 20px;
+    background-color: lavender;
+}
+
+main div.description {
+    color: darkslategrey;
+    text-align: center;
+    background-color: rgb(192, 191, 198);
+}
+
+main div.description p {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+main div.image:hover {
+    background-color: seagreen;
+
+}
+
+main div p:first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px;
+    letter-spacing: 1.5px;
+    color: rgb(121, 110, 150);
+}
+
+main div p:nth-child(3) {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: rgb(121, 110, 150);
+}
+
+main div p:nth-child(5) {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: rgb(121, 110, 150);
+}
+
+main div p:nth-child(6) {
+    text-decoration: underline;
+}
+
+main div p:nth-child(7) {
+    padding-bottom: 10px;
+}
+
+main div p:nth-child(8) {
+    text-decoration: underline;
+}
+
+main div p:nth-child(9) {
+    padding-bottom: 15px;
+}
+
+main section div p {
+    font-size: 20px;
+    text-align: center;
+    color: seagreen;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main section div p:hover {
+    color: darkslateblue;
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: #c0bfc6;
+}
+
+footer p {
+
+    color: white;
+    text-align: center;
+    text-shadow: 1.5px 1.5px #796e96;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
