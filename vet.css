@@ -106,10 +106,15 @@ main div.description {
     background-color: rgb(192, 191, 198);
 }
 
+main div.description p:hover  {
+font-size: 24px;
+}
+
 main div.description p {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.5px;
+    transition: 0.5s;
 }
 
 main div.image:hover {
@@ -123,6 +128,14 @@ main div p:first-child {
     padding-top: 15px;
     letter-spacing: 1.5px;
     color: rgb(121, 110, 150);
+}
+
+main div p:first-child:hover {
+/* color: seagreen; */
+color: white;
+font-size: 28px;
+letter-spacing: 3px;
+text-shadow: 2px 2px black;
 }
 
 main div p:nth-child(3) {
