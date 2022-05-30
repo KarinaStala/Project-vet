@@ -82,22 +82,19 @@ main {
 
 main div.feature {
     display: inline-block;
-    }
+}
 
  main section div.image img {
     width: 45vw;
-    height: 500px;
-    left: 3%;
-    margin: 0 5px;
+    height: 450px;
+    margin: 0 30px;
 }
   
 main section div.iframe {
     width: 50vw;
-    height: 600px;
-    margin: 5px;
+    height: 490px;
     position: absolute;
-    right: 0%;
-    bottom: -220%;
+    transform: translate(97%, -104%);
 }
 
 main div.description p:first-child {
@@ -186,7 +183,6 @@ main div.description p span {
     color:  seagreen;
     text-shadow: 2px 2px white;
 }
-
 
 footer {
     background-color: #c0bfc6;
