@@ -1,9 +1,8 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 html {
     font-family: 'Arial', sans serif;
@@ -42,7 +41,6 @@ nav a.reservation {
     border-top: 5px solid #c0bfc5;
     border-bottom: 5px solid #c0bfc5;
     margin-left: 20px;
-
 }
 
 nav a.reservation:hover {
@@ -50,7 +48,6 @@ nav a.reservation:hover {
     background-color: white;
     border: 5px solid #796e96;
     text-shadow: 1.5px 1.5px lavender;
-
 }
 
 nav a:hover {
@@ -83,31 +80,40 @@ main {
     margin: 1vh auto;
 }
 
-main p.description {
-    font-size: 20px;
-    text-align: center;
-    line-height: 26px;
-}
-
 main div.feature {
     display: inline-block;
-    width: 33%
+    }
+
+ main section div.image img {
+    width: 45vw;
+    height: 500px;
+    left: 3%;
+    margin: 0 5px;
+}
+  
+main section div.iframe {
+    width: 50vw;
+    height: 600px;
+    margin: 5px;
+    position: absolute;
+    right: 0%;
+    bottom: -220%;
 }
 
-main section div.image {
-    height: 200px;
-    margin: 20px;
-    background-color: lavender;
+main div.description p:first-child {
+    font-size: 26px;
 }
 
-main div.description {
+main div.description p {
     color: darkslategrey;
     text-align: center;
     background-color: rgb(192, 191, 198);
+    line-height: 31px;
+    letter-spacing: 2px;
 }
 
 main div.description p:hover  {
-font-size: 24px;
+    font-size: 24px;
 }
 
 main div.description p {
@@ -115,11 +121,6 @@ main div.description p {
     font-weight: bold;
     letter-spacing: 0.5px;
     transition: 0.5s;
-}
-
-main div.image:hover {
-    background-color: seagreen;
-
 }
 
 main div p:first-child {
@@ -130,8 +131,7 @@ main div p:first-child {
     color: rgb(121, 110, 150);
 }
 
-main div p:first-child:hover {
-/* color: seagreen; */
+main div.description p:first-child:hover {
 color: white;
 font-size: 28px;
 letter-spacing: 3px;
@@ -169,25 +169,31 @@ main div p:nth-child(9) {
 }
 
 main section div p {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     color: seagreen;
     font-weight: bold;
     cursor: pointer;
+    padding: 10px;
+    line-height: 30px;
 }
 
 main section div p:hover {
     color: darkslateblue;
-    text-decoration: underline;
-
 }
+
+main div.description p span {
+    color:  seagreen;
+    text-shadow: 2px 2px white;
+}
+
 
 footer {
     background-color: #c0bfc6;
+    padding: 10px;
 }
 
 footer p {
-
     color: white;
     text-align: center;
     text-shadow: 1.5px 1.5px #796e96;
