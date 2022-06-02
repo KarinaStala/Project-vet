@@ -60,7 +60,7 @@ nav a:hover {
 header {
     height: 80vh;
     background-image: url('vet.jpg');
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     margin-right: 220px;
     margin-left: 160px;
