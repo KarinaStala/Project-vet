@@ -1,4 +1,4 @@
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,13 +10,18 @@ html {
     max-width: 1920px;
 }
 
+body {
+    min-height: 100vh;
+}
+
 nav {
     margin: 5px auto;
     background-color: lavender;
+    display: flex;
 }
 
 nav a {
-    display: inline-block;
+    flex-grow: 1;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
@@ -67,12 +72,13 @@ header {
 }
 
 header h1 {
-    font-size: 40px;
-    text-align: center;
+    font-size: 35px;
+    /* text-align: center; */
+    /* transform: translateX(40px); */
     color: white;
     line-height: 110vh;
-    margin-left: 100px;
-    text-shadow: 3px 3px #796e96;
+    margin-left: 175px;
+    text-shadow: 3px 3px #796e96;    
 }
 
 main {
@@ -80,11 +86,12 @@ main {
     margin: 1vh auto;
 }
 
-main div.feature {
-    display: inline-block;
+main section div.feature {
+    display: flex;
+    flex-basis: auto;
 }
 
- main section div.image img {
+main section div.image img {
     width: 45vw;
     height: 450px;
     margin: 0 30px;
@@ -93,8 +100,8 @@ main div.feature {
 main section div.iframe {
     width: 50vw;
     height: 490px;
-    position: absolute;
-    transform: translate(97%, -104%);
+    /* position: absolute; */
+    /* transform: translate(97%, -104%); */
 }
 
 main div.description p:first-child {
@@ -197,3 +204,11 @@ footer p {
     font-weight: bold;
     font-size: 18px;
 }
+
+/* @media (max-width: 1000px) { 
+
+main section div.feature {
+height: auto;
+} 
+
+} */
